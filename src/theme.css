@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pink-50:  #FFF7F8;   /* page background tint */
+  --pink-100: #FDECEF;   /* soft sections */
+  --pink-200: #F9D5DC;   /* borders, chips */
+  --pink-300: #F3B8C4;   /* primary accent */
+  --pink-400: #E996A8;   /* hover / buttons */
+  --beige-50: #FBF7F2;
+  --beige-100:#F4EBDF;   /* alternating sections */
+  --beige-200:#E8D9C6;   /* dividers */
+  --beige-400:#C9AE8E;   /* muted gold-beige accent */
+  --white:    #FFFFFF;
+  --ink:      #3B2F2F;   /* main text (warm dark brown, never pure black) */
+  --ink-soft: #7A6A6A;   /* secondary text */
+}
+
+/* Custom smooth transitions & typography polish */
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--pink-50);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+/* Accessible focus styling */
+:focus-visible {
+  outline: 2px solid var(--pink-400);
+  outline-offset: 3px;
+}
+
+/* Dotted price line leader */
+.dotted-leader {
+  background-image: radial-gradient(circle, var(--beige-400) 1px, transparent 1.5px);
+  background-size: 8px 3px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

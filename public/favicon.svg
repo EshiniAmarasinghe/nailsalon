@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="dazzleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E996A8" />
+      <stop offset="100%" stop-color="#C9AE8E" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="#FDECEF"/>
+  <!-- Polished nail shape / drop -->
+  <path d="M24 10C20 18 16 23 16 29C16 33.4183 19.5817 37 24 37C28.4183 37 32 33.4183 32 29C32 23 28 18 24 10Z" fill="url(#dazzleGrad)" />
+  <!-- Sparkle top right -->
+  <path d="M34 11L35 14L38 15L35 16L34 19L33 16L30 15L33 14L34 11Z" fill="#FBF7F2" stroke="#E996A8" stroke-width="0.5"/>
+  <!-- Highlight shine -->
+  <path d="M22 22C21 24 20.5 27 21 30" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+</svg>
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" fill="none">
+  <!-- Nail drop icon -->
+  <rect x="2" y="2" width="36" height="36" rx="12" fill="#FDECEF"/>
+  <path d="M20 8C16 14 13 18 13 23C13 27 16 30 20 30C24 30 27 27 27 23C27 18 24 14 20 8Z" fill="#E996A8"/>
+  <circle cx="27" cy="11" r="2.5" fill="#C9AE8E"/>
+  
+  <!-- Wordmark -->
+  <text x="48" y="24" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="600" fill="#3B2F2F" letter-spacing="-0.5">Dazzle</text>
+  <text x="49" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#7A6A6A" letter-spacing="2">NAIL SALON</text>
+</svg>
+
